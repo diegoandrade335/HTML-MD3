@@ -10,10 +10,11 @@ font-family: 'Passion One', cursive;
     --fonte2:'Passion One', cursive;
     --fonte3:  'Sriracha', cursive;
 }
+
 * {
     margin: 0px;
     padding: 0px;
-    font-family: 
+   
 }
 
 html, body{
@@ -62,6 +63,10 @@ section{
     
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 section.normal{
     background-color: white;
     color: rgb(14, 14, 14);
@@ -69,21 +74,30 @@ section.normal{
 
 
 section.imagem{
-    background-color: rgb(2, 2, 2); /*cria uma caixa que se adapta ao tamanho do conteudo*/
+    background-color: rgb(2, 2, 2);
     color: white;
-    
-    
-
-
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.726);
+    background-attachment: fixed;
 }
 
 section.imagem > p{
     background-color: rgba(14, 13, 13, 0.678);
-    display: inline-block;
+    display: inline-block;  /*cria uma caixa que se adapta ao tamanho do conteudo*/
     padding: 5px;
     
 }
 
+section#img01{
+    background-image: url('../imagens/background001.jpg');
+    background-position: center center;
+    background-size: cover;
+
+
+}
+section#img02{
+    background-image: url('../imagens/background002.jpg');
+    background-size: cover;
+}
 
 footer{
     background-color: black;

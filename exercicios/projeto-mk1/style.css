@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+:root{
+    --font:'Croissant One', cursive;
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    font-family: var(--font);
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 100px;
+    padding-top: 50px;
+
+}
+
+section {
+    
+    padding-top: 40vh;
+    padding-bottom: 40vh;
+    padding-left: 30px;
+    box-shadow: 2px 3px 5px 0px black;
+    border-radius: 5px;
+    
+}
+
+section.imagem{
+    height: 10vh;
+}
+section#img01{
+    background-image: url('imagens/liu.png');
+    background-position: center center  ;
+    background-size: cover;
+}
+
+section#img02{
+    background-image: url('imagens/floresta.png');
+    background-size: cover;
+    background-position: right top;
+}
+#img03{
+    background-image: url('imagens/fire.jpg');
+    text-align: center;
+    background-position: bottom right;
+}
+#img03 > p{
+color: white;
+font-size: 20px;
+text-align: center;
+}
+section#img02 >p {
+    color: aliceblue;
+}
+
+.redondo{
+    background-color: rgb(207, 9, 197);
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 20px;
+    border-radius: 200px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 10px 2px black;
+    background-color: rgb(247, 247, 247);
+}
+
+.redondo:hover{
+
+   background-color: rgb(3, 3, 3);
+   
+}
+#p01{
+    background-image:url('imagens/liu-kang.png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#p02{
+    background-image: url('imagens/Sub-Zero.png');
+    
+}
+
+#p03 {
+    background-image: url('imagens/sco.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
