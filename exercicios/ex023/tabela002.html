@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        
+        }
+
+        table{
+            width: 600px;
+            border-collapse: collapse;
+            position: relative;
+
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+            background-color: azure;
+        }
+
+        td, th{
+            border:1px solid black;
+            padding: 10px;
+        }
+
+        thead{
+            background-color: azure;
+            color:black;
+        }
+        
+        tbody > tr:nth-child(2n){
+            background-color: azure;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        Anatomia para tabelas grandes
+        Table
+            THEAD
+            TBODY
+            TFOOT
+    -->
+
+
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+                <th>% da População</th>
+            <tr>
+                
+            </tr>
+        </thead>
+
+
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>45.555.55</td>
+                <td>35%</td>
+                
+            </tr>
+            
+            <tr>
+                <td>Minas gerais</td>
+                <td>23.545.54</td>
+                <td>20%</td>
+            </tr>
+
+            <tr>
+                <td>Rio de tiroteio</td>
+                <td>12.45.55</td>
+                <td>10%</td>
+            </tr>
+        </tbody>
+            
+
+        <tfoot>
+            <tr>
+                <th>Total De Habitantes</th>
+                <td>0000</td>
+                <td>100.000.00</td>
+
+            </tr>
+        </tfoot>
+
+    </table>
+</body>
+</html>
